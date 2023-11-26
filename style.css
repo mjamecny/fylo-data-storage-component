@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  progress {
+    -webkit-appearance: none;
+  }
+
+  ::-webkit-progress-bar {
+    background: hsl(229, 57%, 11%);
+    border-radius: 100px;
+    padding: 2px;
+  }
+
+  ::-webkit-progress-value {
+    background: radial-gradient(4px at 97%, white, white 4px, transparent),
+      linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: 100px;
+  }
+}
