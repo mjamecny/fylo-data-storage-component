@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/fylo-data-storage-component-with-tailwindcss-7GOZXFGJQa)
 - Live Site URL: [Netlify](https://fm-challenge-fylo-data-storage-comp.netlify.app)
 
 ## My process
