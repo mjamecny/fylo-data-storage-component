@@ -18,4 +18,15 @@
       linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
     border-radius: 100px;
   }
+
+  .arrow-bottom:after {
+    content: " ";
+    position: absolute;
+    right: 0px;
+    bottom: -15px;
+    border-top: 15px solid #fff;
+    border-right: 0px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: none;
+  }
 }
