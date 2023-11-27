@@ -18,5 +18,50 @@
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Fylo data storage component</title>
   </head>
-  <body></body>
+  <body
+    class="flex justify-center items-center bg-[url('./images/bg-mobile.png')] bg-no-repeat bg-cover lg:bg-contain lg:bg-veryDarkBlue lg:bg-[url('./images/bg-desktop.png')] lg:bg-bottom h-screen p-2.4 max-w-7xl"
+  >
+    <div class="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-1.6">
+      <div
+        class="flex flex-col gap-2.4 p-4.8 rounded-lg rounded-tr-[100px] bg-darkBlue"
+      >
+        <img class="w-[150px]" src="./images/logo.svg" alt="logo" />
+        <div class="flex gap-1.2">
+          <div
+            class="flex items-center justify-center w-[52px] h-[52px] bg-veryDarkBlue rounded-lg"
+          >
+            <img src="./images/icon-document.svg" alt="document icon" />
+          </div>
+          <div
+            class="flex items-center justify-center w-[52px] h-[52px] bg-veryDarkBlue rounded-lg"
+          >
+            <img src="./images/icon-folder.svg" alt="folder icon" />
+          </div>
+          <div
+            class="flex items-center justify-center w-[52px] h-[52px] bg-veryDarkBlue rounded-lg"
+          >
+            <img src="./images/icon-upload.svg" alt="upload icon" />
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-col relative bg-darkBlue rounded-lg p-4.8 pb-6.4 lg:pb-4.8"
+      >
+        <p class="text-paleBlue text-center lg:text-left text-1.4">
+          You've used <strong>815 GB</strong> of your storage
+        </p>
+        <progress class="w-full mt-1.2" value="815" max="1000"></progress>
+        <div class="flex justify-between mt-0.8">
+          <p class="text-paleBlue font-bold">0 GB</p>
+          <p class="text-paleBlue font-bold">1000 GB</p>
+        </div>
+        <div
+          class="absolute w-[200px] flex items-center justify-center gap-0.4 bottom-[0px] lg:top-[0px] lg:bottom-auto translate-y-[50%] lg:translate-y-[-50%] left-[50%] lg:left-auto lg:right-4.8 translate-x-[-50%] lg:translate-x-[0%] bg-[#fff] rounded-tl-md rounded-tr-md rounded-bl-md rounded-br-md lg:rounded-br-none p-1.6 lg:box lg:arrow-bottom"
+        >
+          <p class="text-3.6 font-bold">185</p>
+          <p class="text-grayishBlue font-bold uppercase">GB Left</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
